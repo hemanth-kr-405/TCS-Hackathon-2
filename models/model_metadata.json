@@ -1,0 +1,322 @@
+{
+  "model_name": "TF-IDF + Logistic Regression",
+  "version": "1.0.0",
+  "trained_at": "2026-09-23T11:02:32.203775Z",
+  "training_samples": 610,
+  "test_samples": 153,
+  "total_samples": 763,
+  "seed": 42,
+  "sentiment": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        53,
+        0,
+        0
+      ],
+      [
+        0,
+        44,
+        0
+      ],
+      [
+        0,
+        0,
+        56
+      ]
+    ],
+    "labels": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ],
+    "classification_report": {
+      "Negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 53.0
+      },
+      "Neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 44.0
+      },
+      "Positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 56.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 153.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 153.0
+      }
+    }
+  },
+  "intent": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        33,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        27,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16
+      ]
+    ],
+    "labels": [
+      "Complaint",
+      "General Inquiry",
+      "Order Tracking",
+      "Praise",
+      "Product Inquiry",
+      "Refund / Return",
+      "Technical Support"
+    ],
+    "classification_report": {
+      "Complaint": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 33.0
+      },
+      "General Inquiry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 22.0
+      },
+      "Order Tracking": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 14.0
+      },
+      "Praise": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 34.0
+      },
+      "Product Inquiry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "Refund / Return": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 27.0
+      },
+      "Technical Support": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 16.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 153.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 153.0
+      }
+    }
+  },
+  "emotion": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        30,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        25,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        44,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        31
+      ]
+    ],
+    "labels": [
+      "Anger",
+      "Disappointment",
+      "Frustration",
+      "Joy",
+      "Neutral",
+      "Satisfaction"
+    ],
+    "classification_report": {
+      "Anger": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30.0
+      },
+      "Disappointment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "Frustration": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 21.0
+      },
+      "Joy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 25.0
+      },
+      "Neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 44.0
+      },
+      "Satisfaction": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 31.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 153.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 153.0
+      }
+    }
+  }
+}
